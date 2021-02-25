@@ -82,8 +82,8 @@ const html = todos => `
 
 const defaultData = { todos: [] }
 
-const setCache = (key, data) => KRISTIAN_TODOS.put(key, data)
-const getCache = key => KRISTIAN_TODOS.get(key)
+const setCache = (key, data) => JOHN_TODO.put(key, data)
+const getCache = key => JOHN_TODO.get(key)
 
 async function getTodos(request) {
   const ip = request.headers.get('CF-Connecting-IP')

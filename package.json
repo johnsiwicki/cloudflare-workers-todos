@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-workers-todos",
+  "version": "1.0.0",
+  "description": "This is the source code for my Cloudflare Workers project - a simple todo application, powered by Cloudflare KV as the primary data source.",
+  "main": "workers/todos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsiwicki/cloudflare-workers-todos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnsiwicki/cloudflare-workers-todos/issues"
+  },
+  "homepage": "https://github.com/johnsiwicki/cloudflare-workers-todos#readme"
+}
